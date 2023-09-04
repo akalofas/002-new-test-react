@@ -1,0 +1,11 @@
+#root {
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+  grid-template-rows: 1fr 8fr 1fr;
+  width: 100vw;
+  max-height: 97vh;
+  color: white;
+  padding: 10px 10px 10px 10px;
+}
+
+

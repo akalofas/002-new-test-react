@@ -1,0 +1,44 @@
+header {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 0 10px 10px;
+    width: 98%;
+    background: var(--bars-color);
+    border-radius: 25px;
+}
+
+header .hlogo { 
+    width: 40px;
+}
+
+header .hlogo img{
+    width: 100%;
+}
+
+header .rightmenu {
+    height: 50px;
+    width: 240px;
+}
+
+
+header .hlogo :hover {
+    filter: drop-shadow(0 0 2em var(--shadow-purple));
+}
+  
+@keyframes logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    header .hlogo {
+        animation: logo-spin infinite 20s linear;
+    }
+}
